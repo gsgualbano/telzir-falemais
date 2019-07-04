@@ -1,0 +1,286 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Body /> renders correctly 1`] = `
+<styled.div>
+  <styled.div>
+    <styled.p>
+      Com o nosso novo plano FaleMais, o cliente pode falar de graça até um determinado tempo e depois só paga os minutos excedentes. calcule e veja as vantagens
+    </styled.p>
+  </styled.div>
+  <styled.div>
+    <styled.div>
+      <Animated
+        animateOnMount={true}
+        animationIn="fadeIn"
+        animationInDelay={0}
+        animationInDuration={1000}
+        animationOut="fadeOut"
+        animationOutDelay={0}
+        animationOutDuration={1000}
+        className=""
+        isVisible={true}
+        style={Object {}}
+      >
+        <Form
+          onSubmit={[Function]}
+          schema={
+            ObjectSchema {
+              "_blacklist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "_conditions": Array [],
+              "_defaultDefault": [Function],
+              "_deps": Array [],
+              "_excludedEdges": Array [],
+              "_exclusive": Object {},
+              "_mutate": undefined,
+              "_nodes": Array [
+                "plano",
+                "tempo",
+                "destino",
+                "origem",
+              ],
+              "_options": Object {
+                "abortEarly": true,
+                "recursive": true,
+              },
+              "_type": "object",
+              "_typeError": [Function],
+              "_whitelist": RefSet {
+                "list": Set {},
+                "refs": Map {},
+              },
+              "fields": Object {
+                "destino": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "required": true,
+                  },
+                  "_mutate": undefined,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+                "origem": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "required": true,
+                  },
+                  "_mutate": undefined,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+                "plano": StringSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "required": true,
+                  },
+                  "_mutate": undefined,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "string",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+                "tempo": NumberSchema {
+                  "_blacklist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "_conditions": Array [],
+                  "_deps": Array [],
+                  "_exclusive": Object {
+                    "required": true,
+                  },
+                  "_mutate": undefined,
+                  "_options": Object {
+                    "abortEarly": true,
+                    "recursive": true,
+                  },
+                  "_type": "number",
+                  "_typeError": [Function],
+                  "_whitelist": RefSet {
+                    "list": Set {},
+                    "refs": Map {},
+                  },
+                  "tests": Array [
+                    [Function],
+                  ],
+                  "transforms": Array [
+                    [Function],
+                  ],
+                },
+              },
+              "tests": Array [],
+              "transforms": Array [
+                [Function],
+              ],
+            }
+          }
+        >
+          <styled.div>
+            <styled.label
+              htmlFor="origem"
+            >
+              DDD Origem
+            </styled.label>
+            <Styled(Select)
+              id="origem"
+              name="origem"
+              options={
+                Array [
+                  Object {
+                    "id": "11",
+                    "title": "11",
+                  },
+                  Object {
+                    "id": "16",
+                    "title": "16",
+                  },
+                  Object {
+                    "id": "17",
+                    "title": "17",
+                  },
+                  Object {
+                    "id": "18",
+                    "title": "18",
+                  },
+                ]
+              }
+            />
+          </styled.div>
+          <styled.div>
+            <styled.label
+              htmlFor="destino"
+            >
+              DDD Destino
+            </styled.label>
+            <Styled(Select)
+              id="destino"
+              name="destino"
+              options={
+                Array [
+                  Object {
+                    "id": "11",
+                    "title": "11",
+                  },
+                  Object {
+                    "id": "16",
+                    "title": "16",
+                  },
+                  Object {
+                    "id": "17",
+                    "title": "17",
+                  },
+                  Object {
+                    "id": "18",
+                    "title": "18",
+                  },
+                ]
+              }
+            />
+          </styled.div>
+          <styled.div>
+            <styled.label
+              htmlFor="tempo"
+            >
+              Tempo de ligação(em minutos)
+            </styled.label>
+            <Styled(Input)
+              id="tempo"
+              name="tempo"
+              placeholder=""
+            />
+          </styled.div>
+          <styled.div>
+            <styled.label
+              htmlFor="plano"
+            >
+              Plano
+            </styled.label>
+            <Styled(Select)
+              id="plano"
+              name="plano"
+              options={
+                Array [
+                  Object {
+                    "id": "FaleMais 30",
+                    "title": "FaleMais 30",
+                  },
+                  Object {
+                    "id": "FaleMais 60",
+                    "title": "FaleMais 60",
+                  },
+                  Object {
+                    "id": "FaleMais 120",
+                    "title": "FaleMais 120",
+                  },
+                ]
+              }
+            />
+          </styled.div>
+          <styled.button
+            data-testid="form-button"
+          >
+            Calcular
+          </styled.button>
+        </Form>
+      </Animated>
+    </styled.div>
+  </styled.div>
+</styled.div>
+`;

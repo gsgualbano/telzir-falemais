@@ -1,44 +1,40 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<p align="left">
+  <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="drawing" width="65"/>
+  <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="drawing" width="65" height="65"/>
+  <img src="https://cdn-images-1.medium.com/max/2600/1*-Ijet6kVJqGgul6adezDLQ.png" alt="drawing" height="65"/>
+  <img src="https://www.styled-components.com/static/atom.png" alt="drawing" width="65" height="65"/>
+</p>
 
-## Available Scripts
+# 📱 TELZIR - FaleMais
 
-In the project directory, you can run:
+Calculadora de tarifas do plano FaleMais da empresa de telefonia Telzir, com esse web app você pode escolher o plano, os minutos e o DDD de origem e destino, e ele irá calcular quanto voce irá pagar com os planos FaleMais e sem eles, e a taxa de desconto que você tem com o plano.
 
-### `npm start`
+## Uso
 
-Runs the app in the development mode.<br>
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- **[Introdução](https://falemais-docs.netlify.com/#/Introdução): Visão geral sobre o App**
+- [Como usar](https://falemais-docs.netlify.com/#/Introdu%C3%A7%C3%A3o?id=section-como-usar): Como usar o app
 
-The page will reload if you make edits.<br>
-You will also see any lint errors in the console.
+## Rodando a aplicação
 
-### `npm test`
+- [Docker](https://falemais-docs.netlify.com/#/Rodando%20a%20aplica%C3%A7%C3%A3o?id=section-docker)
+- [Node](https://falemais-docs.netlify.com/#/Rodando%20a%20aplica%C3%A7%C3%A3o?id=section-node)
 
-Launches the test runner in the interactive watch mode.<br>
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Contribuindo
 
-### `npm run build`
+Contribuições, issues e feature requests são bem vindos.
 
-Builds the app for production to the `build` folder.<br>
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Sinta-se a vontade para checar a [página de issues](https://github.com/gsgualbano/vuttr-react/issues) se você quer contribuir.
 
-The build is minified and the filenames include the hashes.<br>
-Your app is ready to be deployed!
+## Author
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+- [Gustavo Gualbano](https://github.com/gsgualbano)
 
-### `npm run eject`
+## Mostre seu suporte
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Por favor ⭐️ esse repositório se esse projeto ajudou você!
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## Extra
 
-Instead, it will copy all the configuration files and the transitive dependencies (Webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Para saber mais acesse a [documentação](https://vuttr-docs.netlify.com/).
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+**Projeto criado utilizando ReactJS, Typescript, React Hooks, e Styled-Components.**

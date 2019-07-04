@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BarChart /> renders correctly 1`] = `
+<Animated
+  animateOnMount={true}
+  animationIn="fadeIn"
+  animationInDelay={0}
+  animationInDuration={1000}
+  animationOut="fadeOut"
+  animationOutDelay={0}
+  animationOutDuration={1000}
+  className=""
+  isVisible={true}
+  style={Object {}}
+>
+  <styled.div>
+    <styled.button
+      onClick={[Function]}
+    >
+      <FontAwesomeIcon
+        border={false}
+        className=""
+        fixedWidth={false}
+        flip={null}
+        icon={
+          Object {
+            "icon": Array [
+              448,
+              512,
+              Array [],
+              "f30a",
+              "M134.059 296H436c6.627 0 12-5.373 12-12v-56c0-6.627-5.373-12-12-12H134.059v-46.059c0-21.382-25.851-32.09-40.971-16.971L7.029 239.029c-9.373 9.373-9.373 24.569 0 33.941l86.059 86.059c15.119 15.119 40.971 4.411 40.971-16.971V296z",
+            ],
+            "iconName": "long-arrow-alt-left",
+            "prefix": "fas",
+          }
+        }
+        inverse={false}
+        listItem={false}
+        mask={null}
+        pull={null}
+        pulse={false}
+        rotation={null}
+        size={null}
+        spin={false}
+        symbol={false}
+        title=""
+        transform={null}
+      />
+      <styled.span>
+        voltar
+      </styled.span>
+    </styled.button>
+    <styled.div>
+      <styled.div>
+        <styled.div>
+          DDD Origem:
+        </styled.div>
+        <styled.div
+          data-testid="origem"
+        >
+          11
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          DDD Destino:
+        </styled.div>
+        <styled.div
+          data-testid="destino"
+        >
+          18
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          Tempo:
+        </styled.div>
+        <styled.div
+          data-testid="tempo"
+        >
+          80 minutos
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div>
+          Plano:
+        </styled.div>
+        <styled.div
+          data-testid="plano"
+        >
+          FaleMais 30
+        </styled.div>
+      </styled.div>
+      <styled.div
+        fontSize="25px"
+      >
+        <styled.div
+          color="#00E396"
+          fontFamily="Lobster"
+        >
+          FaleMais:
+        </styled.div>
+        <styled.div
+          color="#00E396"
+          data-testid="comFaleMais"
+        >
+          R$ 40.28
+        </styled.div>
+      </styled.div>
+      <styled.div>
+        <styled.div
+          color="#ff0000"
+        >
+          Sem FaleMais:
+        </styled.div>
+        <styled.div
+          color="#ff0000"
+          data-testid="semFaleMais"
+        >
+          R$ 60.40
+        </styled.div>
+      </styled.div>
+    </styled.div>
+    <r
+      height="auto"
+      options={
+        Object {
+          "chart": Object {
+            "events": Object {},
+            "height": 350,
+            "type": "bar",
+          },
+          "colors": Array [
+            "#00E396",
+            "#FF0000",
+          ],
+          "dataLabels": Object {
+            "enabled": false,
+          },
+          "plotOptions": Object {
+            "bar": Object {
+              "columnWidth": "45%",
+              "distributed": true,
+            },
+          },
+          "xaxis": Object {
+            "categories": Array [
+              "Com FaleMais",
+              "Sem FaleMais",
+            ],
+            "labels": Object {
+              "style": Object {
+                "colors": Array [
+                  "#00E396",
+                  "#FF0000",
+                ],
+                "fontSize": "14px",
+              },
+            },
+          },
+        }
+      }
+      series={
+        Array [
+          Object {
+            "data": Array [
+              40.28,
+              60.4,
+            ],
+            "name": "Preço R$",
+          },
+        ]
+      }
+      type="bar"
+      width="100%"
+    />
+    <styled.div>
+      <styled.p>
+        Com o FaleMais você economiza:
+        <span
+          data-testid="economia"
+          style={
+            Object {
+              "color": "#00E396",
+            }
+          }
+        >
+          80%
+        </span>
+      </styled.p>
+    </styled.div>
+  </styled.div>
+</Animated>
+`;

@@ -1,0 +1,1 @@
+Calculadora de tarifas do plano FaleMais da empresa de telefonia Telzir, com esse web app você pode escolher o plano, os minutos e o DDD de origem e destino, e ele irá calcular quanto voce irá pagar com os planos FaleMais e sem eles, e a taxa de desconto que você tem com o plano.

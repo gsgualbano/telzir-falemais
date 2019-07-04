@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders correctly 1`] = `
+<styled.div>
+  <Animated
+    animateOnMount={true}
+    animationIn="bounceIn"
+    animationInDelay={0}
+    animationInDuration={1000}
+    animationOut="fadeOut"
+    animationOutDelay={0}
+    animationOutDuration={1000}
+    className=""
+    isVisible={true}
+    style={Object {}}
+  >
+    <styled.p>
+      TELZIR
+    </styled.p>
+    <styled.div>
+      <styled.p>
+        FaleMais
+      </styled.p>
+      <styled.img />
+    </styled.div>
+  </Animated>
+</styled.div>
+`;
