@@ -21,7 +21,7 @@ git clone https://github.com/gsgualbano/telzir-falemais.git
 Selecione a pasta do projeto
 
 ```bash
-cd telzir-falemais-react-ts
+cd telzir-falemais
 ```
 
 Execute o seguinte comando para instalar as dependências e aguarde a instalação

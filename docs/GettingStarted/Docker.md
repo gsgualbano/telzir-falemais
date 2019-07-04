@@ -20,7 +20,7 @@ git clone https://github.com/gsgualbano/telzir-falemais.git
 Selecione a pasta do projeto
 
 ```bash
-cd telzir-falemais-react-ts
+cd telzir-falemais
 ```
 
 em seguida rode o comando

@@ -4,9 +4,6 @@
 const path = require('path');
 
 module.exports = {
-  template: {
-    favicon: 'src/assets/book-favicon.ico',
-  },
   theme: {
     color: {
       link: '#3C40C6',
