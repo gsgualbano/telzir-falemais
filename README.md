@@ -35,6 +35,6 @@ Por favor ⭐️ esse repositório se esse projeto ajudou você!
 
 ## Extra
 
-Para saber mais acesse a [documentação](https://vuttr-docs.netlify.com/).
+Para saber mais acesse a [documentação](https://falemais-docs.netlify.com/).
 
 **Projeto criado utilizando ReactJS, Typescript, React Hooks, e Styled-Components.**
