@@ -1,3 +1,5 @@
+[![Gitpod Ready-to-Code](https://img.shields.io/badge/Gitpod-Ready--to--Code-blue?logo=gitpod)](https://gitpod.io/#https://github.com/gsgualbano/telzir-falemais) 
+
 <p align="left">
   <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png" alt="drawing" width="65"/>
   <img src="https://raw.githubusercontent.com/remojansen/logo.ts/master/ts.png" alt="drawing" width="65" height="65"/>
